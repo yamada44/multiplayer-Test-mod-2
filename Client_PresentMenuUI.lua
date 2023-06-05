@@ -7,7 +7,7 @@ Game = game;
 	
 local vert0 = UI.CreateVerticalLayoutGroup(rootParent);
 local text = UI.CreateTextInputField(vert0).SetPlaceholderText(" Name of Character                       ").SetFlexibleWidth(1).SetCharacterLimit(30)
-	UI.CreateButton(vert0).SetText(test)
+	UI.CreateButton(vert0).SetText('jkljhlkjjlkjlkjljjlkjllkkljjtest')
 
 
         

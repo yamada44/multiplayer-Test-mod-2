@@ -1,4 +1,4 @@
-function Client_PresentMenu_hook(originalPresentMenu)
+function Client_PresentMenuUI(rootParent, setMaxSize, setScrollable, game, close)
     return function()
         originalPresentMenu()
 local vert = UI.CreateVerticalLayoutGroup(rootParent);

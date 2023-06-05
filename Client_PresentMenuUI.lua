@@ -6,7 +6,7 @@ Game = game;
 	setMaxSize(450, 320);
 	
 local vert0 = UI.CreateVerticalLayoutGroup(rootParent);
-	Chartracker = UI.CreateTextInputField(vert0).SetPlaceholderText(" Name of Character                       ").SetFlexibleWidth(0).SetCharacterLimit(30)
+	Chartracker = UI.CreateTextInputField(vert0).SetPlaceholderText(" Name of Character                       ").SetFlexibleWidth(1).SetCharacterLimit(30)
 
 
         

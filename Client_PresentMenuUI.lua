@@ -4,13 +4,6 @@ local vert = UI.CreateVerticalLayoutGroup(rootParent);
     TextInputfield = UI.CreateTextInputField(vert).SetPlaceholderText(" Name").SetFlexibleWidth(1)
         
         
-        local customOption = MenuButton()
-        customOption:SetText("Take Notes")
-        customOption:SetAction(function()
-            open_note_interface()
-        end)
-        UI.MainMenu:AddButton(customOption)
-    end
 end
 
 function open_note_interface()

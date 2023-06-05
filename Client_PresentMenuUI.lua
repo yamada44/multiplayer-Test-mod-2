@@ -1,7 +1,10 @@
 function Client_PresentMenu_hook(originalPresentMenu)
     return function()
         originalPresentMenu()
-
+local vert = UI.CreateVerticalLayoutGroup(rootParent);
+    TextInputfield = UI.CreateTextInputField(vert).SetPlaceholderText(" Name of Character                       ").SetFlexibleWidth(1).SetCharacterLimit(30)
+        
+        
         local customOption = MenuButton()
         customOption:SetText("Take Notes")
         customOption:SetAction(function()

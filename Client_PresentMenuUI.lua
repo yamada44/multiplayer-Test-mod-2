@@ -6,7 +6,7 @@ function Client_PresentMenuUI(rootParent, setMaxSize, setScrollable, game, close
 local vert = UI.CreateVerticalLayoutGroup(rootParent);
 local row1 = UI.CreateHorizontalLayoutGroup(vert);
 
-    local Chartracker = UI.CreateTextInputField(row1).SetText('fhdjksahfjkajkhdkj').SetPlaceholderText(" Name of Character                       ").SetFlexibleWidth(1).SetCharacterLimit(30).SetPreferredWidth(30)
+   UI.CreateTextInputField(row1).SetText('fhdjksahfjkajkhdkj').SetPlaceholderText(" Name of Character                       ").SetFlexibleWidth(1).SetCharacterLimit(30).SetPreferredWidth(30)
 
         
         

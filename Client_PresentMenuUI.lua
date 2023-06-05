@@ -50,5 +50,3 @@ function save_notes(noteText)
     print("Saved Notes:")
     print(noteText)
 end
-
-Client_PresentMenu = Client_PresentMenu_hook(Client_PresentMenu)
